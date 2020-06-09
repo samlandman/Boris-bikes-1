@@ -8,4 +8,7 @@ to run the projct:
 
 to run test for the project:
 
+Document of user stories and domain model diagrams: 
+https://docs.google.com/document/d/1ciz1Tu-p85j9R3la92ioOYCuMDIgU7w8kJiRYkAR9-0/edit?usp=sharing
+
 sjsijd
