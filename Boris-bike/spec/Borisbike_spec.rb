@@ -1,4 +1,3 @@
-require 'DockingStation'
 
 describe DockingStation do 
     describe 'Initialize' do 
