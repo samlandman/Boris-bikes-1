@@ -1,14 +1,16 @@
 class DockingStation 
     def initialize
     end 
-    def release_bike
-         "Bike released"
+    def release_bike(name)
+         name = Bike.new(name)
     end 
         
 end 
 
 class Bike 
-    def initialize
+    def initialize(name)
+        puts name
+        @name = name
         @working = "true"
     end 
     def working
@@ -25,4 +27,8 @@ class Bike
         
 end 
 
-
+ puts sam_bike = Bike.new('sam_bike')
+puts sam_bike.working?
+east_acton = DockingStation.new
+mynewbike = east_acton.release_bike('rabee_bike')
+puts mynewbike.working? 
